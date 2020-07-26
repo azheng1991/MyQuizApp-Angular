@@ -1,6 +1,9 @@
 <div class="results">
   <h1 class="text-center">You got {{ answers.incorrect.length }} wrong!</h1>
-
+  <p
+    class="text-center"
+    [innerText]="answersCheck(answers.incorrect.length)"
+  ></p>
   <div *ngFor="let b of answers.incorrect">
     <h4 class="question" [innerHTML]="b['questionName']"></h4>
     <p class="card-text">

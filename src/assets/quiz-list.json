@@ -1,0 +1,14 @@
+[
+  {
+    "label": "COVID-19 Facts",
+    "name": "maths",
+    "description": "Test Your Knowledge of COVID-19",
+    "fileName": "COVID19.json"
+  },
+  {
+    "label": "Maths",
+    "name": "maths",
+    "description": "Questions about math",
+    "fileName": "maths.json"
+  }
+]

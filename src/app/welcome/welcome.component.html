@@ -1,0 +1,16 @@
+<h1>Quizzes</h1>
+<div class="mt-3">
+  <div class="mr-3">
+    <div class="welcome" *ngFor="let quiz of quizzes">
+      <mat-card>
+        <mat-card-title>{{ quiz.label }}</mat-card-title>
+        <mat-card-content>{{ quiz.description }}</mat-card-content>
+        <mat-card-actions>
+          <button mat-button [routerLink]="['/', quiz.fileName]">
+            {{ quiz.label }}
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>

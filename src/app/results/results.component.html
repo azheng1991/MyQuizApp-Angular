@@ -1,0 +1,19 @@
+<div class="results">
+  <h1 class="text-center">You got {{ answers.incorrect.length }} wrong!</h1>
+  <p
+    class="text-center"
+    [innerText]="answersCheck(answers.incorrect.length)"
+  ></p>
+  <div *ngFor="let b of answers.incorrect">
+    <h4 class="question" [innerHTML]="b['questionName']"></h4>
+    <p class="card-text">
+      You picked:<span style="color: red;"> {{ b["picked"] }}</span>
+      <br />Correct Answer:
+      <span style="color: green;">{{ b["correctAnswer"] }}</span>
+    </p>
+  </div>
+  <!-- <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
+    {{a.value}}
+  </div> -->
+  <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+</div>

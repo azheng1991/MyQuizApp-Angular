@@ -1,0 +1,41 @@
+[
+  {
+    "label": "All of the following are symptoms of COVID19 EXCEPT...",
+    "choices": [
+      { "value": "fever", "correct": false },
+      { "value": "cough", "correct": false },
+      { "value": "difficulty breathing", "correct": false },
+      { "value": "blurred vision", "correct": true }
+    ]
+  },
+  {
+    "label": "All of the following can be considered preventative measures against COVID19 EXCEPT...",
+    "choices": [
+      { "value": "Washing your hands often", "correct": false },
+      { "value": "Avoid touching eyes, nose, mouth", "correct": false },
+      { "value": "Stay home when you are sick", "correct": false },
+      { "value": "Drinking a glass of milk every day", "correct": true }
+    ]
+  },
+  {
+    "label": "For most people, the risk of becoming seriously ill from the virus that causes COVID-19 is thought to be low",
+    "choices": [
+      { "value": "true", "correct": true },
+      { "value": "false", "correct": false }
+    ]
+  },
+  {
+    "label": "Diseases can make anyone sick regardless of their race or ethnicity.",
+    "choices": [
+      { "value": "true", "correct": true },
+      { "value": "false", "correct": false }
+    ]
+  },
+  {
+    "label": "An individual who has been quarantined/released from isolation does not pose a risk of infection to other people",
+    "choices": [
+      { "value": "true", "correct": true },
+      { "value": "false", "correct": false }
+    ]
+  }
+]

@@ -9,18 +9,4 @@ import { Answers } from '../quiz.model';
 export class ResultsComponent {
   @Input() answers: Answers;
   @Input() questions: Question;
-
-  answersCheck(incorrectNum: number) {
-    console.log(this.answers);
-    if (incorrectNum === 0) {
-      return '';
-    }
-    if (incorrectNum <= 1) {
-      return '';
-    }
-    if (incorrectNum <= 3) {
-      return '';
-    }
-    if (incorrectNum >= 4) return '';
-  }
 }
